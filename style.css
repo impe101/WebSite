@@ -46,10 +46,22 @@ h1,h2,h3,h4,h5, p{color: black; padding-bottom: 30px;}
 
 .cta{}
 
+.hamburger{display: none;}
+
 /* media query per mobile*/
 @media(max-width:768px){
     .cta{display: none;}
     .menu{position: absolute;top: 0; right: 0; background: red; height: 100vh;}
+    .menu li{display: block};
+    .hamburger{
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+    .hamburger span{background: white;height: 3px;width: 100%;display: block;margin-bottom: 5px};
 
 }
 
