@@ -8,6 +8,7 @@
     left: 0;
     padding: 30px;
     display: flex;
+    background: blue;
 }
 
 
@@ -20,6 +21,9 @@
     width: 100%;
     display: flex;
 }
+
+.menu li{display: inline-block;}
+.menu li a {color: brown; padding: 15px; display: block;}
 
 
 .cta{
