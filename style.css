@@ -12,18 +12,18 @@
 
 
 .logo{
-    border: blue;
+    border: 1px solid blue;
 }
 
 .menu{
-    border: blue;
+    border: 1px solid blue;
     width: 100%;
     display: flex;
 }
 
 
 .cta{
-    border: blue;
+    border: 1px solid blue;
 }
 
 
