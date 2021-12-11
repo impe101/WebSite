@@ -44,7 +44,8 @@ h1,h2,h3,h4,h5, p{color: black; padding-bottom: 30px;}
 
 /* HERO */
 .hero{
-    background: url("img_titolo.jpg"), no-repeat center center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+    background: url("img_titolo.jpg"), no-repeat center center; 
     background-size: cover;
     height: 600px;
     display: flex; width: 100%; align-items: center;
