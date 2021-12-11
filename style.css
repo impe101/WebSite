@@ -8,7 +8,7 @@ h1,h2,h3,h4,h5, p{color: black; padding-bottom: 30px;}
 .small-text{font-size: 14px;}
 .intro-text{text-transform: uppercase; font-size: 25px; font-weight: bold;}
 
-.button{padding: 18px 28px;background: white; display: inline-block; border-radius: 4px;}
+.button{padding: 18px 28px;background: white; display: inline-block; border-radius: 8px;}
 
 /* Header */
 
