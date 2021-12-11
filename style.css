@@ -2,7 +2,7 @@ body{font-family: 'Inter', sans-serif; font-size: 16px;}
 a{text-decoration: none;}
 h1,h2,h3,h4,h5, p{color: black; padding-bottom: 30px;}
 
-.big-text{font-size: 70px;}
+.big-text{font-size: 70px; font-weight: 900;}
 .med-text{font-size: 40px;}
 .normal-text{font-size: 20px;}
 .small-text{font-size: 14px;}
