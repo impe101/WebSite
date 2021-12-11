@@ -49,7 +49,7 @@ h1,h2,h3,h4,h5, p{color: black; padding-bottom: 30px;}
 /* media query per mobile*/
 @media(max-width:768px){
     .cta{display: none;}
-    .menu{position: absolute;top: 0; right: 0; background: red;}
+    .menu{position: absolute;top: 0; right: 0; background: red; height: 100vh;}
 
 }
 
