@@ -24,9 +24,7 @@ h1,h2,h3,h4,h5, p{color: black; padding-bottom: 30px;}
 }
 
 
-.logo{
-    
-}
+.logo{ }
 
 .menu{
     
@@ -38,9 +36,7 @@ h1,h2,h3,h4,h5, p{color: black; padding-bottom: 30px;}
 .menu li a {color: white; padding: 15px; display: block;}
 
 
-.cta{
-    
-}
+.cta{}
 
 /* HERO */
 .hero{
@@ -56,6 +52,9 @@ h1,h2,h3,h4,h5, p{color: black; padding-bottom: 30px;}
     max-width: 1350px;
     margin: 0 auto;
 }
+
+.hero__content h1,
+.hero__content p{color: white;}
 
 
 
