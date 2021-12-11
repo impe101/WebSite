@@ -17,9 +17,11 @@ h1,h2,h3,h4,h5, p{color: black; padding-bottom: 30px;}
     width: 100%;
     position: fixed;
     top: 0;
-    left: 0;
-    padding: 30px;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 0px;
     display: flex;
+    max-width: 1350px;
     
 }
 
