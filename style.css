@@ -20,7 +20,7 @@ h1,h2,h3,h4,h5, p{color: black; padding-bottom: 30px;}
     left: 0;
     padding: 30px;
     display: flex;
-    background: blue;
+    
 }
 
 
@@ -44,7 +44,8 @@ h1,h2,h3,h4,h5, p{color: black; padding-bottom: 30px;}
 
 /* HERO */
 .hero{
-    background: yellow;
+    background: url("img_titolo.jpg"), no-repeat center center;
+    background-size: cover;
     height: 600px;
     display: flex; width: 100%; align-items: center;
 }
