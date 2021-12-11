@@ -46,13 +46,16 @@ h1,h2,h3,h4,h5, p{color: black; padding-bottom: 30px;}
 
 .cta{}
 
+/*
 .hamburger{display: none;}
 
 /* media query per mobile*/
+
 @media(max-width:768px){
     .cta{display: none;}
     .menu{position: absolute;top: 0; right: -100%; background: red; height: 100vh;padding-top: 80px;}
     .menu li{display: block};
+    /*
     .hamburger{
         display: block;
         width: 30px;
@@ -62,9 +65,9 @@ h1,h2,h3,h4,h5, p{color: black; padding-bottom: 30px;}
         right: 40px;
     }
     .hamburger span{background: #fff;height: 3px;width: 100%;display: block;margin-bottom: 5px};
-
+    */
 }
-
+*/
 
 /* HERO */
 .hero{
