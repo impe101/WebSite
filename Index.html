@@ -27,7 +27,11 @@
         <div class="cta">
             <a href="" class="button">Contatti</a>
         </div>
-
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </div>  
 
     <div class="hero">
@@ -37,6 +41,27 @@
             <a href="" class="button">Discover</a>
         </div>
     </div>
-    
+
+    <div class="poster mt-3">
+        <div class="poster__img">
+            <img src="Video_Poster.png" alt="">
+        </div>
+        <div class="poster__content">
+            <h3 class="big-text">Ultimo Progetto</h3>
+            <p>Ciao</p>
+            <a href="" class="button">-></a>
+        </div>
+    </div>
+ 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $( document ).ready(function(){
+            $( ".hamburger" ).on('click', function(){
+                $(".menu").toggleClass("menu--open");
+            });
+
+        });
+    </script>
 </body>
 </html>
