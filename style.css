@@ -44,12 +44,13 @@ p{line-height: 28px;font-weight: 300px;color: #666;}
 .menu{
     
     width: 100%;
-    display: flex;
+    display: none;
     z-index: 0;
 }
 
 .menu li{display: inline-block;}
-.menu li a {color: white; padding: 15px; display: block;}
+.menu li a {color: black; padding: 15px; display: block;}
+
 
 .hamburger{display: none;}
 
@@ -92,6 +93,25 @@ p{line-height: 28px;font-weight: 300px;color: #666;}
 
 .hero__content h1,
 .hero__content p{color: white;}
+
+
+/* bodyCV */
+.bodyCV{
+    background-color: black;
+    background-size: cover;
+    height: 100vh;
+    display: flex; width: 100%; align-items: center;
+}
+
+.bodyCV__content{
+    padding: 30px;
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.bodyCV__content h1,
+.bodyCV__content p{color: white;}
 
 
 
