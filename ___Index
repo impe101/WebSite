@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WORK IN PROGRESS!!</title>
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="header">
+        <div class="logo"><img src="Logo.jpg" alt=""></div>
+        <ul class="menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">Progetti</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+
+        <div class="cta">
+            <a href="" class="button">Contatti</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>  
+
+    <div class="hero">
+        <div class="hero__content">
+            <p class="intro-text">Intro</p>
+            <h1 class="big-text">Titolo</h1>
+            <a href="" class="button">Discover</a>
+        </div>
+    </div>
+
+    <div class="poster mt-3">
+        <div class="poster__img">
+            <img src="Video_Poster.png" alt="">
+        </div>
+        <div class="poster__content">
+            <h3 class="big-text">Ultimo Progetto</h3>
+            <p>Ciao</p>
+            <a href="" class="button">-></a>
+        </div>
+    </div>
+ 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $( document ).ready(function(){
+            $( ".hamburger" ).on('click', function(){
+                $(".menu").toggleClass("menu--open");
+            });
+
+        });
+    </script>
+</body>
+</html>
