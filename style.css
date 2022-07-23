@@ -78,7 +78,7 @@ p{line-height: 28px;font-weight: 300px;color: #666;}
 
 /* HERO */
 .hero{
-    background: url("img_titolo.jpg"), no-repeat center center; 
+    background: url("Immagini/img_titolo.jpg"), no-repeat center center; 
     background-size: cover;
     height: 100vh;
     display: flex; width: 100%; align-items: center;
@@ -95,12 +95,32 @@ p{line-height: 28px;font-weight: 300px;color: #666;}
 .hero__content p{color: white;}
 
 
+/* HERO - Business Card */
+.heroBusinessCard{
+    /* background: url("Immagini/img_titolo.jpg"), no-repeat center center; */
+    background-color: black;
+    background-size: cover;
+    height: 130vh;
+    display: flex; width: 100%; align-items: top;
+}
+
+.heroBusinessCard__content{
+    padding: 30px;
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.heroBusinessCard__content h1,
+.heroBusinessCard__content p{color: white;}
+
+
 /* bodyCV */
 .bodyCV{
     background-color: black;
     background-size: cover;
     height: 100vh;
-    display: flex; width: 100%; align-items: center;
+    display: flex; width: 100%; align-items: top;
 }
 
 .bodyCV__content{
