@@ -100,7 +100,7 @@ p{line-height: 28px;font-weight: 300px;color: #666;}
     /* background: url("Immagini/img_titolo.jpg"), no-repeat center center; */
     background-color: black;
     background-size: cover;
-    height: 130vh;
+    height: 150vh;
     display: flex; width: 100%; align-items: top;
 }
 
