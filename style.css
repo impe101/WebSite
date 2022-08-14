@@ -46,10 +46,7 @@ p{line-height: 28px;font-weight: 300px;color: #666;}
     width: 100%;
     display: none;
     z-index: 0;
-    text-align: center;
-    align-items: center;
-    align-content: center;
-    ruby-align: center;
+
 }
 
 .menu li{display: inline-block;}
