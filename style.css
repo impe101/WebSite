@@ -100,7 +100,7 @@ p{line-height: 28px;font-weight: 300px;color: #666;}
     /* background: url("Immagini/img_titolo.jpg"), no-repeat center center; */
     background-color: black;
     background-size: cover;
-    height: 250vh;
+    height: 150vh;
     display: flex; width: 100%; align-items: top;
 }
 
@@ -126,7 +126,7 @@ p{line-height: 28px;font-weight: 300px;color: #666;}
 .bodyCV__content{
     padding: 30px;
     width: 100%;
-    max-width: 1350px;
+    max-width: 2350px;
     margin: 0 auto;
 }
 
