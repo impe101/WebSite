@@ -106,8 +106,8 @@ p{line-height: 28px;font-weight: 300px;color: #666;}
 
 .heroBusinessCard__content{
     padding: 30px;
-    width: 100%;
-    max-width: 1550px;
+    width: 120%;
+    max-width: 1250px;
     margin: 0 auto;
 }
 
