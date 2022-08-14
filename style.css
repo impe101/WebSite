@@ -53,7 +53,7 @@ p{line-height: 28px;font-weight: 300px;color: #666;}
 }
 
 .menu li{display: inline-block;}
-.menu li a {color: black; padding: 15px; display: block;align-items: center;}
+.menu li a {color: black; padding: 15px; display: block; align-items: center; align-content: center;}
 
 
 .hamburger{display: none;}
