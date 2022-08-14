@@ -46,14 +46,11 @@ p{line-height: 28px;font-weight: 300px;color: #666;}
     width: 100%;
     display: none;
     z-index: 0;
-    align-items: center;
-    align-self: center;
-    align-content: center;
     text-align: center;
 }
 
 .menu li{display: inline-block;}
-.menu li a {color: black; padding: 15px; display: block; align-items: center; align-content: center;}
+.menu li a {color: black; padding: 15px; display: block;}
 
 
 .hamburger{display: none;}
