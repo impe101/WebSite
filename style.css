@@ -89,6 +89,7 @@ p{line-height: 28px;font-weight: 300px;color: #666;}
     width: 100%;
     max-width: 1350px;
     margin: 0 auto;
+    align-items: center;
 }
 
 .hero__content h1,
