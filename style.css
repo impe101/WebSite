@@ -100,13 +100,13 @@ p{line-height: 28px;font-weight: 300px;color: #666;}
     /* background: url("Immagini/img_titolo.jpg"), no-repeat center center; */
     background-color: black;
     background-size: cover;
-    height: 150vh;
+    height: 250vh;
     display: flex; width: 100%; align-items: top;
 }
 
 .heroBusinessCard__content{
     padding: 30px;
-    width: 120%;
+    width: 100%;
     max-width: 1250px;
     margin: 0 auto;
 }
