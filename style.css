@@ -164,7 +164,9 @@ p{line-height: 28px;font-weight: 300px;color: #666;}
 }
 
 /* bottoni */
-
+.button{
+    align-items: center;
+}
 
 *,
 *:before,
