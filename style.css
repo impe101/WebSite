@@ -10,7 +10,7 @@ p{line-height: 28px;font-weight: 300px;color: #666;}
 .small-text{font-size: 14px;}
 .intro-text{text-transform: uppercase; font-size: 25px; font-weight: bold;}
 
-.button{padding: 18px 28px;background: white; display: inline-block; border-radius: 8px;}
+.button{padding: 18px 28px;background: white; display: inline-block; border-radius: 8px; align-items: center;}
 
 .cta{}
 
@@ -121,7 +121,7 @@ p{line-height: 28px;font-weight: 300px;color: #666;}
     background-color: black;
     background-size: cover;
     height: 100vh;
-    display: flex; width: 100%; align-items: center;
+    display: flex; width: 100%; align-items: top;
 }
 
 .bodyCV__content{
