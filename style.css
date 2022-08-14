@@ -46,7 +46,7 @@ p{line-height: 28px;font-weight: 300px;color: #666;}
     width: 100%;
     display: none;
     z-index: 0;
-
+    align-items: center;
 }
 
 .menu li{display: inline-block;}
