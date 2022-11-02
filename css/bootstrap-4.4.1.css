@@ -5476,7 +5476,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 .media-body {
   -ms-flex: 1;
   flex: 1;
-  align-items: center;
+  text-align: center;
 }
 
 .list-group {
