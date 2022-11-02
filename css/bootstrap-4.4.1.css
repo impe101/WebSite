@@ -5470,7 +5470,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: start;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .media-body {
