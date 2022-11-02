@@ -5470,12 +5470,13 @@ a.badge-dark:focus, a.badge-dark.focus {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: start;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .media-body {
   -ms-flex: 1;
   flex: 1;
+  align-items: center;
 }
 
 .list-group {
