@@ -606,6 +606,7 @@ pre code {
   }
 }
 
+
 .row {
   display: -ms-flexbox;
   display: flex;
@@ -5442,6 +5443,22 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #007bff;
   transition: width 0.6s ease;
 }
+
+@media print {
+  /* All your print styles go here */
+  .progress{
+    background-color: #00000 !important;
+    -webkit-print-color-adjust:exact !important;
+    border-radius: 4px !important;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,1) !important;
+  }
+  .progress-bar{
+    background-color: #000000 !important;
+    -webkit-print-color-adjust:exact !important;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,1.8) !important;
+  }
+}
+
 
 @media (prefers-reduced-motion: reduce) {
   .progress-bar {
