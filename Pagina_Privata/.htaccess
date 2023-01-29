@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Sito Protetto"
-AuthUserFile Pagina_Privata/.htpasswd
-require valid-user
