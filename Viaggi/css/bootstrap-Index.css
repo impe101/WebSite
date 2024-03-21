@@ -192,6 +192,7 @@ figure {
 }
 
 img {
+  pointer-events: none;
   vertical-align: middle;
   border-style: none;
 }
